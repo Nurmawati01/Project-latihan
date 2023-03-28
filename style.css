@@ -1,0 +1,209 @@
+/* style home */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+#name {
+    margin-left: 150px;
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#keterangan {
+    margin-top: -35px;
+    font-size: 14px;
+    margin-left: 155px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#fb {
+    width: 35px;
+
+}
+
+#ig {
+    width: 35px;
+    padding-left: 10px;
+}
+
+#linked {
+    width: 35px;
+    padding-left: 10px;
+}
+
+#coding {
+    width: 35px;
+    padding-left: 10px;
+}
+
+#sosmed {
+    margin-left: 155px;
+}
+
+/* Style About */
+#nav-about {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#navi-about {
+    display: inline;
+    padding-left: 10px;
+}
+
+#judul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+#deskrip {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+#isi-about {
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column2 {
+    float: left;
+    width: 30%;
+    padding: 0px;
+    height: 150px;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#col-skil {
+    margin-left: 80px;
+}
+
+#teks-skil {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#skil-img {
+    width: 70px;
+    padding-left: 10px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#teks-int {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#par-int {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -29px;
+}
+
+#front {
+    width: 60px;
+    padding-left: 10px;
+    margin-left: 140px;
+    margin-top: -25px;
+}
+
+/* Style Works */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-left: 50px;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.card {
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border: 2px;
+    border-style: ridge;
+}
+
+#card-works{
+    margin-left: 250px;
+}
+#teks-works{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* style hobby */
+.column1 {
+    float: left;
+    width: 30%;
+    padding: 0px;
+    height: 150px;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#teks-hobby{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
